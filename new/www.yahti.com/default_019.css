@@ -1,0 +1,63 @@
+/* ::::: http://yahti.com/photostory/styles-site.css ::::: */
+
+html { margin: 0pt; padding: 0pt; }
+body { margin: 0pt; padding: 0pt; font-family: verdana,'trebuchet ms',sans-serif; font-size: 12px; }
+form { margin: 0pt; padding: 0pt; }
+a { text-decoration: underline; }
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+h1, h2, h3, h4, h5, h6, p, ol, ul, pre, blockquote { margin-top: 10px; margin-bottom: 10px; }
+.pkg:after { content: " "; display: block; visibility: hidden; clear: both; height: 0.1px; font-size: 0.1em; line-height: 0pt; }
+.pkg { display: block; }
+body { text-align: center; }
+#container { position: relative; margin: 0pt auto; width: 720px; text-align: left; }
+#container-inner { position: static; width: auto; }
+#banner { position: relative; }
+#banner-inner { position: static; }
+#pagebody { position: relative; width: 100%; }
+#pagebody-inner { position: static; width: 100%; }
+#alpha, #beta, #gamma, #delta { display: inline; position: relative; float: left; min-height: 1px; }
+#alpha-inner, #beta-inner, #gamma-inner, #delta-inner { position: static; }
+.content-nav { margin: 10px; text-align: center; }
+.date-header, .entry-content { position: static; clear: both; }
+.entry, .trackbacks, .comments, .archive { position: static; overflow: hidden; clear: both; width: 100%; margin-bottom: 20px; }
+.entry-content, .trackbacks-info, .trackback-content, .comment-content, .comments-open-content, .comments-closed { clear: both; }
+.entry-excerpt, .entry-body, .entry-more-link, .entry-more { clear: both; }
+.entry-footer, .trackback-footer, .comment-footer, .comments-open-footer, .archive-content { clear: both; margin: 5px 10px 20px; }
+.module { position: relative; overflow: hidden; width: 100%; }
+.module-content { position: relative; margin: 5px 10px 20px; }
+.module-powered .module-content { margin-bottom: 10px; }
+body { font-family: 'trebuchet ms',verdana,helvetica,arial,sans-serif; font-size: 12px; }
+a { color: rgb(54, 65, 77); text-decoration: underline; }
+a:hover { color: rgb(163, 184, 204); }
+#banner a { color: rgb(255, 255, 255); text-decoration: none; }
+#banner a:hover { color: rgb(255, 255, 255); }
+.module-content a { color: rgb(54, 65, 77); }
+.module-content a:hover { color: rgb(163, 184, 204); }
+h1, h2, h3, h4, h5, h6 { font-family: 'trebuchet ms',verdana,helvetica,arial,sans-serif; }
+.module-header, .trackbacks-header, .comments-header, .comments-open-header, .archive-header { position: relative; width: auto; margin: 0pt; border-left: 5px solid rgb(54, 65, 77); padding: 5px; color: rgb(255, 255, 255); background: none repeat scroll 0% 0% rgb(163, 184, 204); font-size: 11px; font-weight: bold; line-height: 1; text-transform: uppercase; }
+.entry-more-link, .entry-footer, .comment-footer, .trackback-footer, .typelist-thumbnailed { font-size: 11px; }
+body { min-width: 720px; color: rgb(51, 51, 51); background: none repeat scroll 0% 0% rgb(54, 65, 77); }
+#container { width: 720px; margin-bottom: 20px; background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+#container-inner { border-width: 0pt 5px 5px; border-style: solid; border-color: rgb(41, 46, 51); }
+#banner { width: 710px; background: none repeat scroll 0% 0% rgb(163, 184, 204); }
+#banner-inner { padding: 15px 13px; border-width: 2px 2px 0pt; border-style: solid; border-color: rgb(255, 255, 255); }
+#banner-header { margin: 0pt; color: rgb(255, 255, 255); font-size: 30px; font-weight: bold; line-height: 1; text-shadow: 0pt 2px 3px rgb(54, 65, 77); }
+#banner-description { margin-top: 5px; margin-bottom: 0pt; color: rgb(255, 255, 255); background: none repeat scroll 0% 0% transparent; font-size: 12px; font-weight: bold; line-height: 1.125; text-shadow: 0pt 1px 2px rgb(54, 65, 77); }
+#alpha { margin: 15px 15px 0pt; width: 480px; }
+#beta { width: 200px; background: none repeat scroll 0% 0% rgb(230, 236, 242); }
+#beta-inner, #gamma-inner, #delta-inner { padding: 10px 10px 0pt; border-width: 2px 2px 2px 0pt; border-style: solid; border-color: rgb(255, 255, 255); }
+.date-header { margin-top: 0pt; font-size: 11px; font-weight: bold; text-transform: uppercase; }
+.entry-header { margin-top: 0pt; border-left: 5px solid rgb(218, 224, 230); padding: 0pt 0pt 0pt 10px; color: rgb(102, 102, 102); font-size: 18px; }
+.entry-content, .comment-content, .trackback-content { margin: 0pt; line-height: 1.5; }
+.entry-footer, .comment-footer, .trackback-footer { margin: 0pt 0pt 20px; border-top: 1px solid rgb(218, 224, 230); padding-top: 3px; color: rgb(102, 102, 102); font-size: 10px; text-align: right; }
+.content-nav { margin-top: 0pt; }
+.module { margin: 0pt 0pt 10px; border-bottom: 1px solid rgb(243, 246, 249); background: none repeat scroll 0% 0% rgb(218, 224, 230); }
+.module-content { margin: 0pt 0pt 10px; border-top: 1px solid rgb(207, 212, 217); padding: 10px 10px 0pt; font-size: 10px; line-height: 1.2; }
+.module-search input { font-size: 10px; }
+.module-search #search { width: 100px; }
+.module-powered { border-width: 0pt; }
+.module-powered .module-content { margin-bottom: 0pt; border: 1px dashed rgb(163, 184, 204); padding-bottom: 10px; color: rgb(41, 46, 51); background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+.content-nav { margin: 0px; display: none; }
+.module-welcome p { font-size: 12px; }
+.module-content p.first { margin-top: 0px; }
+.master-archive-index #archive-title, .individual-entry-archive #archive-title, .date-based-archive #archive-title, .category-archive #archive-title { position: relative; width: auto; margin: 0pt; border-left: 10px solid rgb(163, 184, 204); padding: 5px; color: rgb(255, 255, 255); background: none repeat scroll 0% 0% rgb(54, 65, 77); }

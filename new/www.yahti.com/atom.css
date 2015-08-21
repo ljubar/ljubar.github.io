@@ -1,0 +1,38 @@
+/* ::::: http://www.bloglines.com/css/r200806191/site.css ::::: */
+
+form { padding: 0pt; margin: 0pt; }
+a:link { color: rgb(0, 0, 0); }
+a:visited { color: rgb(64, 64, 64); }
+a:focus {  }
+.header-content { height: 50px; background-color: rgb(255, 255, 255); }
+.header-content img { vertical-align: bottom; }
+.logbar { margin: 0px 10px; color: rgb(19, 147, 192); border-bottom: 1px dotted rgb(204, 204, 204); }
+.searchbar { padding: 2px; font-size: 0.8em; margin: 0px 10px; white-space: nowrap; }
+#actionBar, #welcomeBar { white-space: nowrap; }
+.tabs { float: left; width: 100%; background: url('tabs_bg.gif') repeat-x scroll center bottom rgb(255, 255, 255); font-size: 1em; line-height: normal; margin-bottom: 10px; }
+.tabs ul { margin: 0pt; padding: 3px 5px 0pt; list-style: none outside none; }
+.tabs li { float: left; background: url('tab_left.gif') no-repeat scroll left top transparent; margin: 0px; padding: 0px 0px 0px 6px; border-bottom: 1px solid rgb(102, 102, 102); }
+.tabs a { float: left; display: block; width: 0.1em; background: url('tab_right.gif') no-repeat scroll right top transparent; padding: 5px 6px 4px 2px; text-decoration: none; font-weight: bold; color: rgb(102, 102, 102); }
+.tabs > ul a { width: auto; }
+.tabs a { float: none; }
+.tabs li a:hover { color: rgb(51, 51, 51); }
+.tabs a:visited { color: rgb(102, 102, 102); }
+.tabs li:hover, .header li:hover a { background-position: 0% -150px; color: rgb(51, 51, 51); }
+.tabs li:hover a { background-position: 100% -150px; }
+p { margin: 0pt; padding: 3px; }
+div.clear { clear: both; height: 0pt; margin: 0pt; line-height: 0pt; font-size: 1px; }
+.homefooter { clear: both; }
+.homefooter a { white-space: nowrap; }
+.homefooter a { white-space: nowrap; }
+.bl_account { margin: 0px auto; padding: 0px 2em; width: 50em; }
+.bl_account td, .bl_account th { vertical-align: top; }
+.bl_account h2 { margin: 0px 0px 0.75em; font-size: 130%; color: rgb(19, 147, 192); border-bottom: 1px solid rgb(19, 147, 192); }
+.bl_account th { font-weight: bold; text-align: left; }
+.bl_submit { font-size: 100%; padding: 0px 1em; }
+.bl_txt { width: 17em; }
+.bl_account .bl_desc { color: rgb(51, 51, 51); margin: 0.5em 0px 1em; padding: 0px; }
+.bl_account a, .bl_account a:visited { color: blue; }
+.bl_account th { padding-right: 2em; }
+.bl_nowrap { white-space: nowrap; }
+body { background: none repeat scroll 0% 0% rgb(255, 255, 255); margin: 0pt; padding: 0pt; color: rgb(0, 0, 0); font: 69%/1.5em Verdana,Arial,Helvetica,sans-serif; voice-family: inherit; }
+.bl_partner { text-align: center; margin: 3em 2em; }

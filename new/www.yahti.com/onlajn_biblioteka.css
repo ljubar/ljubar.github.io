@@ -1,0 +1,78 @@
+/* ::::: http://yahti.com/styles2_0.css ::::: */
+
+* { margin: 0pt; padding: 0pt; }
+body { font-family: Arial,Verdana,sans-serif; color: rgb(0, 0, 0); background: none repeat scroll 0% 0% rgb(255, 255, 255); height: 100%; }
+p { font-size: 12px; }
+h1 { font-size: 18px; line-height: 24px; font-weight: bold; }
+h1 sup { font-size: 12px; }
+h1 span { display: block; clear: both; font-size: 12px; font-weight: normal; line-height: 16px; }
+h3 { font-size: 12px; font-weight: bold; }
+h4 { font-size: 10px; text-transform: uppercase; color: rgb(66, 73, 122); margin: 0pt 0pt 2px; font-weight: normal; }
+hr { height: 1px; border: 1px dotted rgb(224, 220, 220); margin: 3px 0pt; }
+.clearfix:after { content: "."; display: block; height: 0pt; clear: both; visibility: hidden; }
+.wrapper { overflow: hidden; margin: 0pt; display: block; height: 100%; clear: both; }
+.clear { clear: both; height: 14px; }
+div#header { width: 100%; height: 280px; clear: both; background: url('obala.gif') repeat-x scroll center bottom rgb(255, 255, 255); }
+#article #header, #category #header, #photostream #header, #archive #header { width: 100%; height: 220px; clear: both; text-align: center; background: url('obala-blur.gif') repeat-x scroll center bottom rgb(255, 255, 255); }
+#header #yahti { position: relative; left: 200px; }
+#header #logo { width: 910px; margin: 0pt auto; padding: 7px 0pt 7px 42px; text-align: left; background: url('logoydotc.gif') no-repeat scroll left center rgb(255, 255, 255); }
+div#horiznav { width: 100%; clear: both; background-color: rgb(201, 212, 253); border-top: 1px solid rgb(255, 255, 255); border-bottom: 1px solid rgb(255, 255, 255); }
+#horiznav ul { width: 959px; list-style: none outside none; padding: 0pt; margin: 0pt auto; }
+#horiznav ul li { width: 136px; float: left; color: rgb(66, 73, 122); font-size: 12px; line-height: 24px; text-align: center; border-right: 1px solid white; }
+#horiznav ul li a { display: block; padding: 0pt; background-color: transparent; color: rgb(66, 73, 122); text-decoration: none; font-weight: bold; }
+#horiznav ul li a:hover { color: white; background-color: rgb(66, 73, 122); text-decoration: none; font-weight: bold; }
+div#container { margin: 0pt auto; width: 959px; background-color: rgb(255, 255, 255); height: 100%; clear: both; }
+div#left { width: 269px; height: 100%; float: left; padding-top: 14px; background-color: rgb(255, 255, 255); padding-bottom: 20010px; margin-bottom: -20000px; }
+.inner { margin: 0px 7px; }
+div#center { width: 545px; height: 100%; float: left; display: inline; margin: 0pt 7px -20000px; padding-top: 14px; background-color: rgb(255, 255, 255); padding-bottom: 20010px; }
+#center #banner468 { width: 100%; clear: both; margin: 14px 0pt; text-align: center; }
+div#right { width: 131px; float: left; height: 100%; padding-top: 14px; background-color: rgb(255, 255, 255); padding-bottom: 20010px; margin-bottom: -20000px; }
+#right ul#sections, ul#archives, ul#feeds, ul#search { list-style: none outside none; padding: 0pt; margin: 0pt; }
+ul#archives, ul#feeds, ul#search { margin-top: 14px; }
+ul#feeds li#feeds-top, ul#archives li#archive-top, ul#search li#search-top { color: rgb(66, 73, 122); background-color: rgb(201, 212, 253); line-height: 24px; padding-left: 4px; }
+ul#sections li, ul#archives li, ul#feeds li, ul#search li { text-align: left; border-top: 1px solid gray; margin: 0pt; padding: 0pt; background: none repeat scroll 0% 0% transparent; font: 12px Arial,Tahoma,sans-serif; }
+ul#feeds li img { float: left; margin: 0pt 2px 0pt 0pt; }
+ul#feeds form, ul#search form { margin: 7px 0pt; text-align: center; }
+ul#feeds form input.text, ul#search form input.text { width: 98%; border: 1px solid gray; background-color: rgb(255, 255, 255); clear: both; display: block; }
+ul#feeds form input.button, ul#search form input.button { width: 100%; background-color: rgb(255, 255, 255); border: 1px solid gray; color: gray; padding: 1px 3px; font-size: 9px; clear: both; margin-top: 3px; display: block; }
+ul#feeds p, ul#searh p { clear: both; font-size: 9px; margin-top: 3px; color: gray; }
+ul#sections li a, ul#archives li a, ul#feeds li a { display: block; padding: 4px 0pt 6px 4px; color: rgb(66, 73, 122); background-color: transparent; text-decoration: none; margin: 0pt; }
+ul#sections li a:hover, ul#archives li a:hover, ul#feeds li a:hover { padding: 4px 0pt 6px 4px; background-color: rgb(182, 225, 40); color: rgb(66, 73, 122); text-decoration: none; margin: 0pt; }
+div#footer { border-top: 1px solid gray; padding: 20px 0pt; }
+#footer #innerfoot { width: 969px; margin: auto; }
+img#sheep { margin: 0pt 65px; float: left; }
+#footer p { font-size: 11px; line-height: 14px; color: gray; }
+#footer a { color: rgb(66, 73, 122); text-decoration: none; }
+#footer a:hover { color: white; background-color: rgb(66, 73, 122); text-decoration: none; }
+#left .related { margin: 14px 7px; padding: 7px 0pt; }
+.related h3 { font-size: 11px; font-weight: bold; display: inline; clear: left; margin-top: 7px; }
+.related h3 a { color: rgb(0, 0, 0); text-decoration: none; }
+.related h3 a:hover { color: rgb(0, 0, 0); background-color: rgb(182, 225, 40); text-decoration: none; }
+.related p { font-size: 11px; font-weight: normal; }
+.post { width: 100%; clear: both; margin: 0pt; padding: 0pt; }
+.post h2 { clear: both; font-size: 16px; font-weight: bold; line-height: 24px; background-color: rgb(221, 253, 149); border-top: 1px solid gray; border-bottom: 1px solid gray; margin: 0pt 0pt 14px; padding-left: 7px; }
+.post p, .comment p { line-height: 150%; margin-bottom: 14px; }
+.post p a { color: rgb(66, 73, 122); background-color: rgb(255, 255, 255); text-decoration: none; }
+.post p a:hover { color: rgb(66, 73, 122); background-color: rgb(201, 212, 253); text-decoration: none; }
+.post ol { font-size: 12px; line-height: 16px; color: rgb(0, 0, 0); padding: 0pt; margin: 0pt; }
+.post ol li { margin: 4px 0px 3px 24px; }
+.post img { margin: 7px; }
+.articleban250 { clear: both; margin: 7px 0pt 7px 7px; padding: 0pt; }
+.post-info { width: 280px; float: left; padding: 0pt; margin-bottom: 7px; clear: both; }
+.post-info h4 { clear: both; display: block; line-height: 24px; color: rgb(0, 0, 0); font-size: 12px; text-transform: none; border-bottom: 1px dotted gray; }
+.post-info h4 a { color: rgb(0, 0, 0); font-weight: bold; text-decoration: none; }
+.post-info h4 a:hover { color: rgb(0, 0, 0); font-weight: bold; background-color: rgb(182, 225, 40); text-decoration: none; }
+#comments { width: 100%; clear: both; margin: 14px 0pt; }
+#comments h3 { font-size: 14px; font-weight: bold; margin: 7px 0pt; }
+.comment { border-top: 1px solid gray; padding: 14px 0pt; clear: both; width: 100%; }
+.comment h5 { font-size: 12px; font-weight: bold; display: block; clear: both; margin: 7px 0pt 0pt; color: gray; line-height: 16px; }
+.comment a { color: rgb(0, 0, 0); text-decoration: none; }
+.comment a:hover { color: rgb(0, 0, 0); background-color: rgb(182, 225, 40); text-decoration: none; }
+#add-comment { width: 100%; clear: both; margin: 0pt; padding: 0pt; }
+#add-comment form { margin: 0pt; padding: 0pt; background-color: rgb(221, 253, 149); border-top: 1px solid gray; border-bottom: 1px solid gray; }
+.form-element { display: block; clear: both; width: 338px; margin: 7px 7px 0pt 14px; }
+.widen { width: 500px; }
+.form-element label { color: rgb(0, 0, 0); font-size: 12px; font-weight: normal; float: left; }
+.form-element input { width: 131px; height: 18px; float: right; }
+.form-element textarea { width: 100%; height: 200px; }
+.form-element .button { width: 131px; height: 24px; background-color: rgb(255, 255, 255); border: 1px solid gray; color: gray; padding: 3px; font-size: 12px; margin: 3px 7px 0pt 0pt; display: block; float: left; }
