@@ -24,7 +24,7 @@ zdrava hrana, healthy food, wine, wineyard">
   
 
 
-<link rel="stylesheet" type="text/css" href="index.css" media="all">
+<link rel="stylesheet" type="text/css" href="www.yahti.com/index.css" media="all">
 </head><body>
 
    <div id="header">
@@ -42,7 +42,7 @@ zdrava hrana, healthy food, wine, wineyard">
       <li><a href="http://technorati.com/blogs/yahti.com" title="Yahti na Technoratiju">Y.c Technorati</a></li>
       <li><a indepth="true" href="oblak-tagova.html" title="Cloud of tags">Oblak tagova</a></li>
       <li><a indepth="true" href="onama.html" title="About">Šta je yahti.com?</a></li>
-	  <li><a href="index.html#" title="RSS Feeds">Yahti feedovi</a></li>
+	  <li><a href="#" title="RSS Feeds">Yahti feedovi</a></li>
     </ul>  
   </div><!-- /#horiznav -->
   
@@ -51,7 +51,7 @@ zdrava hrana, healthy food, wine, wineyard">
 
 	  <div id="youtube">
 	    <h4>Video predlog</h4>
-                                    <p><object width="245" height="210"><param name="movie" value="http://www.youtube.com/v/Ws25EyTGdTg&amp;hl=en_US&amp;fs=1&amp;"><param name="allowFullScreen" value="true"><param name="allowscriptaccess" value="always"><embed src="ws25eytgdtg+hl=en_us+fs=1+.html" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="240" height="197"></object></p>
+                                    <p><object width="245" height="210"><param name="movie" value="http://www.youtube.com/v/Ws25EyTGdTg&amp;hl=en_US&amp;fs=1&amp;"><param name="allowFullScreen" value="true"><param name="allowscriptaccess" value="always"><embed src="ws25eytgdtg+hl=en_us+fs=1+" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="240" height="197"></object></p>
             <h3 class="dole">Jaga Jazzist: "One-Armed Bandit (live)"</h3>
             
             
@@ -344,7 +344,7 @@ E, sad, zamislite da nekome u Beogradu kažete da jedna od opcija da kupuje zdra
   <form id="searchbox_001959388472599317396:qblrk-kjmzo" action="http://yahti.com/search.html">
     <input name="cx" value="001959388472599317396:qblrk-kjmzo" type="hidden">
     <input name="cof" value="FORID:11" type="hidden">
-    <input value="" style="border: 1px solid rgb(126, 157, 185); padding: 2px; background: url(http://www.yahti.com/&quot;google_custom_search_watermark.gif&quot;) no-repeat scroll left center rgb(255, 255, 255);" size="16" name="q" type="text">
+    <input value="" style="border: 1px solid rgb(126, 157, 185); padding: 2px; background: url(&quot;google_custom_search_watermark.gif&quot;) no-repeat scroll left center rgb(255, 255, 255);" size="16" name="q" type="text">
     <input class="button" name="sa" value="Traži" type="submit">
   <input value="yahti.com/" name="siteurl" type="hidden"></form>
   
